@@ -1,3 +1,107 @@
+/* base */
+
+body {
+    font-family: "Castoro", serif;
+    line-height: 1.5;
+}
+
+
+/* html tag */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+/* container */
 .container {
-    width: 1920px;
+    width: 1296px;
+    margin: 0 auto;
+}
+/* font-size */
+/* font base 1rem */
+.fz-128 {
+    font-size: 128px;
+}
+.fz-40 {
+    font-size: 40px;
+}
+.fz-32 {
+    font-size: 32px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+/* color */
+.text-red {
+    color: #ae0000;
+}
+
+/* background-color */
+
+.bg-gray {
+    background-color: #EFEFEF;
+}
+.bg-black {
+    background-color: #000;
+}
+
+/* border */
+.border-bottom {
+    border-bottom: 3px solid #AE0000;
+}
+
+/* utility */
+
+/* width */
+
+.width-50 {
+    width: 50%;
+}
+
+/* padding-top padding-bottom */
+.pt-160 {
+    padding-top: 160px;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-160 {
+    padding-bottom: 160px;
+}
+/* padding-x padding-y */
+
+.px-20 {
+    padding: 0 20px;
+}
+
+.py-64 {
+    padding: 64px 0;
+}
+.py-48 {
+    padding: 48px 0;
+}
+/* margin */
+
+.mx-auto {
+    margin: 0 auto;
+}
+.mx-20 {
+    margin: 0 20px;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+/* text-align */
+
+.text-end {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
 }
