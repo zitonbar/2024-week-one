@@ -11,6 +11,7 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+    color: #000;
 }
 img {
     display: block;
@@ -22,7 +23,6 @@ img {
     margin: 0 auto;
 }
 /* font-size */
-/* font base 1rem */
 .fz-128 {
     font-size: 128px;
 }
@@ -38,9 +38,20 @@ img {
 .fz-20 {
     font-size: 20px;
 }
+/* font-style */
+.fs-italic {
+    font-style: italic;
+}
+/* letter spacing */
+.ls-12 {
+    letter-spacing: 0.12em;
+}
 /* color */
 .text-red {
     color: #ae0000;
+}
+.text-gray {
+    color: #949494;
 }
 
 /* background-color */
@@ -58,6 +69,7 @@ img {
 }
 
 /* utility */
+/* display */
 
 /* width */
 
@@ -89,7 +101,6 @@ img {
     padding: 48px 0;
 }
 /* margin */
-
 .mx-auto {
     margin: 0 auto;
 }
@@ -99,6 +110,22 @@ img {
 
 .mt-160 {
     margin-top: 160px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-12 {
+    margin-bottom: 12px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.ms-auto {
+    margin-left: auto;
 }
 
 /* text-align */
