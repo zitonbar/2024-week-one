@@ -12,6 +12,10 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+img {
+    display: block;
+}
+
 /* container */
 .container {
     width: 1296px;
