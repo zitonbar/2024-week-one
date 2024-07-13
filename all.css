@@ -136,3 +136,7 @@ img {
 .text-center {
     text-align: center;
 }
+/* a hover */
+.hover\:opacity:hover {
+    opacity: 0.8;
+}
