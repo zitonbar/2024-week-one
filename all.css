@@ -10,11 +10,12 @@ body {
 
 a {
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     color: #000;
 }
 img {
     display: block;
+    vertical-align: middle;
 }
 
 /* container */
@@ -70,6 +71,20 @@ img {
 
 /* utility */
 /* display */
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+
+/* flex */
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
 
 /* width */
 
